@@ -1,0 +1,141 @@
+/* reset browser */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.top-main{
+    width: fixed 1920px;
+    height:  753px;
+    background: var(--Black-5, rgba(30, 40, 50, 0.05));
+    position: relative;
+}
+
+.container{
+    width: 1175px;
+    height: 753px;
+    background-color: blue;
+    margin: auto;
+    position: relative;
+}
+
+.plant-decorate{
+    position: absolute;
+    width: 100%;
+    height: 400px;
+    background-color: transparent;
+    top: 300px;
+}
+
+.plant-1{
+    width: 110px;
+    margin-top: 240px;
+}
+
+.plant-2{
+    width: 150px;
+    margin-left: 1433px;
+    margin-top: 47px;
+}
+
+.header{
+    width: 100%;
+    height: 113px;
+    background-color: aqua;
+    position: absolute;
+    top: 31px;
+}
+
+.header-top{
+    width: 100%;
+    height: 49px;
+    background-color: rgb(255, 255, 255);
+    display: flex;
+}
+
+.top-main .container .header .header-top img{
+    width: 23px;
+    height: 23px;
+}
+
+.top-main .container .header .header-top .logo {
+    position: relative;
+}
+
+.top-main .container .header .header-top .logo .main-logo{
+    position: absolute;
+    width: 86px;
+    height: 21px;
+    left: 522px;
+    top: 1px;
+    color: #000000;
+}
+
+.top-main .container .header .header-top .logo .left{
+    position: absolute;
+    width: 28px;
+    height: 14px;
+    left: 485px;
+    top: 5px;
+    color: #000000;
+}
+
+.top-main .container .header .header-top .logo .right{
+    position: absolute;
+    width: 28px;
+    height: 14px;
+    left: 617px;
+    top: 5px;
+    color: #000000;
+}
+
+i{
+    font-size: 18px;
+}
+
+a{
+    text-decoration: none;
+    color: black;
+}
+
+a:hover{
+    color: orangered;
+}
+
+.account{
+    margin-left: 957px;
+    margin-top: 1px;
+}
+
+span{
+    margin-left: 6px;
+    font-family: 'Roboto', sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+}
+
+.shoping{
+    margin-left: 24px;
+    margin-top: 1px;
+}
+
+hr{
+    color: #E3E3E3;
+    height: 1px;
+}
+
+.header-bot ul{
+    display: flex;
+    color: black;
+    list-style: none;
+    justify-content: space-between;
+    margin-top: 26px;
+}
+
+.header-bot ul li a{
+    font-family: 'Open Sans', sans-serif;
+    font-size: 14.3px;
+    font-weight: 400;
+    color: var(--Dark, #000);
+}
