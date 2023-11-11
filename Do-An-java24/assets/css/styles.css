@@ -150,19 +150,13 @@ hr{
 
 .collections-content{
     width: 610px;
-    height: 327px;
+    height: 337px;
     background-color: aqua;
-    margin-top: 63px;
+    margin-top: 53px;
 }
-
-/* .header-content{
-    width: 320px;
-    height: 50px;
-    background-color: red;
-} */
 
 .header-content{
     font-family: 'Roboto', sans-serif;
     font-size: 64.5px;
-    margin-top: -11px;
+    margin-top: -1px;
 }
