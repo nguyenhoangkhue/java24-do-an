@@ -26,6 +26,8 @@
     height: 350px;
     background-color: red;
     top: 300px;
+    display: flex;
+    justify-content: space-between;
 }
 
 .plant-1{
@@ -35,7 +37,6 @@
 
 .plant-2{
     width: 148px;
-    margin-left: 1000px;
     margin-bottom: 100px;
 }
 
