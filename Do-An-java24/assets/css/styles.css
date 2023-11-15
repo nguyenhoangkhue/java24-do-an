@@ -534,6 +534,16 @@ hr{
     font-weight: 500;
 }
 
+.slide .container .top-menu-products{
+    height: 60px;
+    position: relative;
+}
+
+.slide .container .top-menu-products .menu{
+    position: absolute;
+    top: -15px;
+}
+
 .slide .container .top-menu-products div a .show-all{
     width: 83px;
     height: 29px;
@@ -550,4 +560,22 @@ hr{
 
 .slide .container .top-menu-products div a:hover .show-all{
     background-color: orangered;
+}
+
+.slide-main{
+    position: relative;
+}
+
+.left-angle{
+    position: absolute;
+    z-index: 999;
+    top: 156px;
+    left: 7px;
+}
+
+.right-angle{
+    position: absolute;
+    z-index: 999;
+    top: 156px;
+    left: 1124px;
 }
