@@ -199,6 +199,10 @@ span{
     font-family: 'Roboto', sans-serif;
 }
 
+a:hover .shop-now{
+    background-color: orangered;
+}
+
 .border{
     background-color: transparent;
     width: 376px;
@@ -509,7 +513,7 @@ span{
 }
 
 .slide .container{
-    background-color: white;
+    background-color: #FFF;
     width: 1175px;
     height: 692px;
 }
@@ -617,6 +621,36 @@ span{
     height: 178px;
 }
 
+.ins ul li{
+    position: relative;
+}
+
+.ins ul li i{
+    font-size: 44px;
+    position: absolute;
+    top: 66px;
+    left: 70px;
+    display: none;
+}
+
+.ins ul li div{
+    width: 178px;
+    height: 178px;
+    background-color: black;
+    opacity: 0.4;
+    margin-top: -182px;
+    position: relative;
+    display: none;
+}
+
+.ins ul li:hover div{
+    display: block;
+}
+
+.ins ul li:hover i{
+    display: block;
+}
+
 .follow-title-2{
     width: fit-content;
     height: auto;
@@ -677,4 +711,81 @@ span{
     height: 2px;
     background: #1E2832;
     top: 18px;
+}
+
+.footer-main{
+    width: fixed 1920px;
+    height: 440px;
+    background-color: aqua;
+}
+
+.footer-main .container{
+    width: 1175px;
+    height: 89.5%;
+    background-color: red;
+    position: relative;
+}
+
+.footer-left{
+    width: 355px;
+    height: 185px;
+    background-color: white;
+    position: absolute;
+    top: 125px;
+    display: inline-flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+.footer-left .logo{
+    position: relative;
+}
+
+.footer-left .logo .main-logo{
+    position: absolute;
+    width: 86px;
+    height: 21px;
+    left: 38px;
+    top: 3px;
+    color: black;
+}
+
+.footer-left .logo .left{
+    position: absolute;
+    width: 28px;
+    height: 14px;
+    left: 1px;
+    top: 7px;
+    color: black;
+}
+
+.footer-left .logo .right{
+    position: absolute;
+    width: 28px;
+    height: 14px;
+    left: 133px;
+    top: 7px;
+    color: black;
+}
+
+.footer-content{
+    position: absolute;
+    top: 53px;
+}
+
+.footer-content p{
+    font-family: 'Open Sans', sans-serif;
+    font-size: 14.3px;
+    font-weight: 400;
+    line-height: 28px;
+}
+
+.social{
+    position: absolute;
+    top: 160px;
+    justify-content: space-between;
+}
+
+.social img{
+    width: 22px;
 }
