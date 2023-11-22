@@ -969,10 +969,37 @@ a:hover .shop-now{
 }
 
 .products .row .column-4 a div .shop-hover div{
-    width: 45%;
+    width: 60%;
     height: 100%;
-    background-color: black;
+    background-color: transparent;
     position: absolute;
-    right: 0;
+    right:  -40px;
     top: 124px;
+    display: flex;
+}
+
+.products .row .column-4 a div .shop-hover div .shop-now{
+    position: relative;
+    display: flex;
+}
+
+.products .row .column-4 a div .shop-hover div .shop-now p{
+    color: white;
+    font-family: 'Roboto', sans-serif;
+    font-size: 16px;
+    margin-left: -33px;
+    margin-top: 3px;
+}
+
+.products .row .column-4 a div .shop-hover div .shop-now i{
+    font-size: 17px;
+    margin-left: -85px;
+}
+
+.products .row .column-4 a div .shop-hover div .shop-now:hover i{
+    color: #FF6F61;
+}
+
+.products .row .column-4 a div .shop-hover div .shop-now:hover p{
+    color: #FF6F61;
 }
