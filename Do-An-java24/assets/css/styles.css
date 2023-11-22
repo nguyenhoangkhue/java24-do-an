@@ -953,19 +953,19 @@ a:hover .shop-now{
 }
 
 .products .row .column-4 a div .shop-hover .fa-regular{
-    font-size: 16px;
+    font-size: 15px;
     color: white;
     position: absolute;
-    top: 16px;
-    left: 15px;
+    top: 18px;
+    left: 16px;
 }
 
 .products .row .column-4 a div .shop-hover .fa-solid{
-    font-size: 16px;
+    font-size: 15px;
     color: white;
     position: absolute;
-    top: 16px;
-    left: 55px;
+    top: 18px;
+    left: 56px;
 }
 
 .products .row .column-4 a div .shop-hover div{
