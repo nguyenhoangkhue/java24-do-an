@@ -941,8 +941,9 @@ a:hover .shop-now{
     position: relative;
     width: 100%;
     height: 120px;
-    background-color: red;
-    margin-top: -124px;
+    background-color: transparent;
+    margin-top: -122px;
+    display: none;
 }
 
 .products .row .column-4 a div .shop-hover{
@@ -952,11 +953,15 @@ a:hover .shop-now{
     position: relative;
 }
 
+.products .row .column-4 a:hover div{
+    display: block;
+}
+
 .products .row .column-4 a div .shop-hover .fa-regular{
     font-size: 15px;
     color: white;
     position: absolute;
-    top: 18px;
+    top: 16px;
     left: 16px;
 }
 
@@ -964,7 +969,7 @@ a:hover .shop-now{
     font-size: 15px;
     color: white;
     position: absolute;
-    top: 18px;
+    top: 16px;
     left: 56px;
 }
 
@@ -988,12 +993,13 @@ a:hover .shop-now{
     font-family: 'Roboto', sans-serif;
     font-size: 16px;
     margin-left: -33px;
-    margin-top: 3px;
+    margin-top: -8px;
 }
 
 .products .row .column-4 a div .shop-hover div .shop-now i{
     font-size: 17px;
     margin-left: -85px;
+    margin-top: -4px;
 }
 
 .products .row .column-4 a div .shop-hover div .shop-now:hover i{
@@ -1002,4 +1008,203 @@ a:hover .shop-now{
 
 .products .row .column-4 a div .shop-hover div .shop-now:hover p{
     color: #FF6F61;
+}
+
+.products .row2 .column-4 a div{
+    position: relative;
+    width: 100%;
+    height: 120px;
+    background-color: transparent;
+    margin-top: -122px;
+    display: none;
+}
+
+.products .row2 .column-4 a div .shop-hover{
+    width: 100%;
+    height: 49px;
+    background: var(--Black, #1E2832);
+    position: relative;
+}
+
+.products .row2 .column-4 a:hover div{
+    display: block;
+}
+
+.products .row2 .column-4 a div .shop-hover .fa-regular{
+    font-size: 15px;
+    color: white;
+    position: absolute;
+    top: 16px;
+    left: 16px;
+}
+
+.products .row2 .column-4 a div .shop-hover .fa-solid{
+    font-size: 15px;
+    color: white;
+    position: absolute;
+    top: 16px;
+    left: 56px;
+}
+
+.products .row2 .column-4 a div .shop-hover div{
+    width: 60%;
+    height: 100%;
+    background-color: transparent;
+    position: absolute;
+    right:  -40px;
+    top: 124px;
+    display: flex;
+}
+
+.products .row2 .column-4 a div .shop-hover div .shop-now{
+    position: relative;
+    display: flex;
+}
+
+.products .row2 .column-4 a div .shop-hover div .shop-now p{
+    color: white;
+    font-family: 'Roboto', sans-serif;
+    font-size: 16px;
+    margin-left: -33px;
+    margin-top: -8px;
+}
+
+.products .row2 .column-4 a div .shop-hover div .shop-now i{
+    font-size: 17px;
+    margin-left: -85px;
+    margin-top: -4px;
+}
+
+.products .row2 .column-4 a div .shop-hover div .shop-now:hover i{
+    color: #FF6F61;
+}
+
+.products .row2 .column-4 a div .shop-hover div .shop-now:hover p{
+    color: #FF6F61;
+}
+
+.products .row .column-4 a div .price-hover{
+    width: 50%;
+    height: 20px;
+    background-color: #FFF;
+    margin-top: 51px;
+    margin-left: 50%;
+}
+
+.products .row .column-4 a div .price-hover p{
+    color: var(--Dark, #000);
+    text-align: right;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 14px;
+    font-weight: 600;
+    margin-right: 10px;
+}
+
+.products .row2 .column-4 a div .price-hover{
+    width: 50%;
+    height: 20px;
+    background-color: #FFF;
+    margin-top: 51px;
+    margin-left: 50%;
+}
+
+.products .row2 .column-4 a div .price-hover p{
+    color: var(--Dark, #000);
+    text-align: right;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 14px;
+    font-weight: 600;
+    margin-right: 10px;
+}
+
+
+
+.slide-main div .item a div{
+    position: relative;
+    width: 100%;
+    height: 120px;
+    background-color: transparent;
+    margin-top: -118px;
+    display: none;
+}
+
+.slide-main div .item a div .shop-hover{
+    width: 100%;
+    height: 49px;
+    background: var(--Black, #1E2832);
+    position: relative;
+}
+
+.slide-main div .item a:hover div{
+    display: block;
+}
+
+.slide-main div .item a div .shop-hover .fa-regular{
+    font-size: 15px;
+    color: white;
+    position: absolute;
+    top: 16px;
+    left: 16px;
+}
+
+.slide-main div .item a div .shop-hover .fa-solid{
+    font-size: 15px;
+    color: white;
+    position: absolute;
+    top: 16px;
+    left: 56px;
+}
+
+.slide-main div .item a div .shop-hover div{
+    width: 60%;
+    height: 100%;
+    background-color: transparent;
+    position: absolute;
+    right:  -40px;
+    top: 124px;
+    display: flex;
+}
+
+.slide-main div .item a div .shop-hover div .shop-now{
+    position: relative;
+    display: flex;
+}
+
+.slide-main div .item a div .shop-hover div .shop-now p{
+    color: white;
+    font-family: 'Roboto', sans-serif;
+    font-size: 16px;
+    margin-left: -33px;
+    margin-top: -26px;
+}
+
+.slide-main div .item a div .shop-hover div .shop-now i{
+    font-size: 17px;
+    margin-left: -85px;
+    margin-top: -13px;
+}
+
+.slide-main div .item a div .shop-hover div .shop-now:hover i{
+    color: #FF6F61;
+}
+
+.slide-main div .item a div .shop-hover div .shop-now:hover p{
+    color: #FF6F61;
+}
+
+.slide-main div .item a div .price-hover{
+    width: 50%;
+    height: 20px;
+    background-color: #FFF;
+    margin-top: 47px;
+    margin-left: 50%;
+}
+
+.slide-main div .item a div .price-hover p{
+    color: var(--Dark, #000);
+    text-align: right;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 14px;
+    font-weight: 600;
+    margin-right: 10px;
 }
